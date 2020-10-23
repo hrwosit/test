@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "mobile1",
+    "slug": "mobile1"
+   
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FEF9B0"
+    }
+   
+}
