@@ -22,8 +22,8 @@ export default class Mission  extends React.Component {
       
       <View style={{flex:1}}>
         
-   
-    OUR INFORMATION
+   <Text style= {{justifyContent:"center",alignContent:"center"}} >   OUR INFORMATION </Text>
+  
 
   </View>
     );
