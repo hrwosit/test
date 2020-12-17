@@ -4,16 +4,18 @@ import React from 'react';
 //Import react-navigation
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator} from 'react-navigation-stack';
-
-
 import Header from './src/Screen/Header';
 import Mission from './src/Screen/Mission';
 import Product from './src/Screen/Product';
 import Contact from './src/Screen/Contact';
 import { StyleSheet, Text, View ,Image, Button} from 'react-native';
+// import Footer from  './src/Footer';
+import './src/App.css';
+
 
 const App = createStackNavigator(
   {
+    
   Header: {
     screen: Header,
     navigationOptions: {
@@ -40,10 +42,45 @@ const App = createStackNavigator(
     
   
   },
+  
+  
 
  
 });
+
+function Hello() {
+  return (
+    
+    <View style={styles.container}>
+       
+      
+      <StatusBar style="auto" />
+      <div className="Hello">
+     
+      <Footer/> 
+      <Footer/>
+      
+     </div>
+    </View>
+   
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    // backgroundColor: 'pink',
+    alignItems: 'center',
+    justifyContent: 'center',
+    display:'block',
+    
+    
+  },
+  
+});
+
 export default createAppContainer(App);
+
 
 
 

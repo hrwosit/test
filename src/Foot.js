@@ -10,21 +10,19 @@ import img from '../assets/img.png';
 class Foot extends React.Component {
 render(){
     return (
-  <Footer
-    columns={[
-
-      {
-        icon: (
-          <Image source={img} style={{width: 228, height:68 ,alignSelf:'flex-end' }} />    
-        ),
-        title: 'contact us',
-        url: 'https://yuque.com',
-        description: 'kjsdk',
-        openExternal: true,
-      },
-    ]}
+  <Footer 
+    
     bottom="Made with ❤️ "
+
+    
+    
   />
+
+
+  
+
+
+  
     );
 }
 }

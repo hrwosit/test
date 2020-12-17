@@ -14,7 +14,9 @@ import Order from '../Order';
 // //  import sp from './assets/sp.jpg'; 
 // //  import main from './assets/main.png'; 
  import Foot from '../Foot';
+ import Footer from '../Footer';
  import slogo from '../slogo.png';
+// import Footer from 'rc-footer';
 // import Mission from './Mission';
 //  import Toptab from './src/Toptab';
 
@@ -75,8 +77,13 @@ class Header  extends React.Component {
      <View>
          <Services/>
                  </View>
-       <View style={{backgroundColor:'#1f2d61'}} >
+       {/* <View style={{backgroundColor:'#1f2d61'}} >
          <Foot/>
+
+         </View> */}
+
+         <View style={{backgroundColor:'#1f2d61'}} >
+         <Footer/>
 
          </View>
        {/* <View>         <Bottom/>

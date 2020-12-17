@@ -2,6 +2,8 @@ import React from 'react';
 import { SafeAreaView, View, Text, StyleSheet,Button,Image } from 'react-native';
 import Toptab from './Toptab';
 import slogo from '../assets/slogo.png';
+
+
 const Header = ({ onBack, title }) => (
   <SafeAreaView style={styles.headerContainer}>
     
@@ -34,6 +36,16 @@ const Header = ({ onBack, title }) => (
   
    
 );
+
+
+
+
+
+
+
+
+
+
 
 const styles = StyleSheet.create({
   headerContainer: {
