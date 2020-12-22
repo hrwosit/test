@@ -4,6 +4,8 @@ import React from 'react';
 import { StyleSheet, Text, View ,Image, Button} from 'react-native';
 import Swipe from '../Swipe';
 import Reg from '../Reg'
+import Shopinfo from '../Shopinfo';
+import Shopinf from '../Shopinf';
   import Services from '../Services';
 // // import  FormDialog from './src/Form';
 //  import Header from '..Header';
@@ -51,17 +53,25 @@ class Header  extends React.Component {
      </View> 
 
    <View style={{flexDirection:'row',alignSelf:'flex-end',alignItems:'center'}} >
-
+  
     <Button color='transparent'  title="Mission"  onPress={() =>  this.props.navigation.navigate('Mission')}/>
     <Button color='transparent'  title="Product" onPress={() =>  this.props.navigation.navigate('Product')}/>
     <Button  color='transparent'    title="Contact" onPress={() =>  this.props.navigation.navigate('Contact')}/>
+  
+  
+    
+
   {/* <Mission/> */}
   </View>
   </View>
+  
   <View>
   <View style={{flexDirection:'row' ,alignItems:'center' }}>
     <Swipe/>
-    <Reg/>
+    
+  <Reg/>
+  <Button color='black'  title="Shopinf" onPress={() =>  this.props.navigation.navigate('Shopinf')} />
+  <Button color='skyblue'  title="Dynamic" onPress={() =>  this.props.navigation.navigate('Shopinfo')} />
   </View>
   
 </View>   

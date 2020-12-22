@@ -10,6 +10,8 @@ import Header from './src/Screen/Header';
 import Mission from './src/Screen/Mission';
 import Product from './src/Screen/Product';
 import Contact from './src/Screen/Contact';
+import Shopinf from './src/Shopinf';
+import Shopinfo from './src/Shopinfo';
 import { StyleSheet, Text, View ,Image, Button} from 'react-native';
 
 const App = createStackNavigator(
@@ -40,7 +42,16 @@ const App = createStackNavigator(
     
   
   },
-
+  Shopinf: {
+    screen: Shopinf ,
+    
+  
+  },
+  Shopinfo: {
+    screen: Shopinfo ,
+    
+  
+  },
  
 });
 export default createAppContainer(App);
